@@ -1,0 +1,281 @@
+body {
+  margin: 0;
+  background: #f4f6f9;
+  font-family: Arial, sans-serif;
+}
+
+.dashboard-container {
+  padding: 30px;
+}
+
+.dashboard-header {
+  background: #1e3a8a;
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.dashboard-header h1 {
+  margin: 0;
+}
+
+.quote-card {
+  background: white;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.stats-container {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.stat-card {
+  flex: 1;
+  background: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.stat-card h2 {
+  margin: 0;
+  font-size: 32px;
+  color: #1e3a8a;
+}
+
+.students-section {
+  margin-top: 30px;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.students-section table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.students-section th,
+.students-section td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.students-section th {
+  background: #1e3a8a;
+  color: white;
+}
+.add-student-card {
+  background: white;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-student-card h2 {
+  margin-bottom: 15px;
+}
+
+.add-student-card input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.add-student-card button {
+  background: #1e3a8a;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.add-student-card button:hover {
+  opacity: 0.9;
+}
+.attendance-actions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.attendance-actions button {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: 0.2s;
+}
+
+.attendance-actions button:first-child {
+  background: #d1f7d6;
+  color: #1b7f2a;
+}
+
+.attendance-actions button:first-child:hover {
+  background: #a8e6b3;
+}
+
+.attendance-actions button:last-child {
+  background: #ffd6d6;
+  color: #b30000;
+}
+
+.attendance-actions button:last-child:hover {
+  background: #ffb3b3;
+}
+
+.present-btn {
+  background-color: #16a34a;
+  color: white;
+}
+
+.present-btn:hover {
+  background-color: #15803d;
+  transform: scale(1.05);
+}
+
+.absent-btn {
+  background-color: #dc2626;
+  color: white;
+}
+
+.absent-btn:hover {
+  background-color: #b91c1c;
+  transform: scale(1.05);
+}
+.status-none {
+  background: #6b7280;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+}
+/* ⭐ DATE PICKER CARD */
+.date-picker-card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 15px 0;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+.date-picker-card input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.date-picker-card h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* INNER LAYOUT */
+.date-picker-inner {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* INPUT STYLE */
+.date-input {
+  padding: 10px 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* SELECTED DATE DISPLAY */
+.selected-date {
+  background: #f0f7ff;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-weight: 500;
+  color: #1a73e8;
+}
+.status-present {
+  background: #d1f7d6;
+  color: #1b7f2a;
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.status-absent {
+  background: #ffd6d6;
+  color: #b30000;
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+button.save-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button.save-btn:hover {
+  background: #0f5bd3;
+}
+
+button.save-btn:disabled {
+  background: #9bbcf0;
+  cursor: not-allowed;
+}
+.students-section table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.students-section th,
+.students-section td {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+}
+.pdf-btn {
+  margin-left: 10px;
+  padding: 10px 18px;
+  background: #34a853;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.pdf-btn:hover {
+  background: #2c8c46;
+}
+/* ⭐ FIX BUTTON SPACING (SAVE + PDF) */
+.button-row {
+  display: flex;
+  gap: 16px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+/* extra safety spacing */
+.button-row button {
+  margin-right: 8px;
+}
